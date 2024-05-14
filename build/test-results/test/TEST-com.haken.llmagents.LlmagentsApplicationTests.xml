@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.haken.llmagents.LlmagentsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-03T14:44:38" hostname="AT-ALJX1HQC" time="0.501">
+<testsuite name="com.haken.llmagents.LlmagentsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-03T16:28:30" hostname="AT-ALJX1HQC" time="0.514">
   <properties/>
-  <testcase name="contextLoads()" classname="com.haken.llmagents.LlmagentsApplicationTests" time="0.501"/>
-  <system-out><![CDATA[15:44:37.439 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.haken.llmagents.LlmagentsApplicationTests]: LlmagentsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:44:37.491 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.haken.llmagents.LlmagentsApplication for test class com.haken.llmagents.LlmagentsApplicationTests
+  <testcase name="contextLoads()" classname="com.haken.llmagents.LlmagentsApplicationTests" time="0.514"/>
+  <system-out><![CDATA[17:28:29.893 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.haken.llmagents.LlmagentsApplicationTests]: LlmagentsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:28:29.945 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.haken.llmagents.LlmagentsApplication for test class com.haken.llmagents.LlmagentsApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -13,9 +13,9 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.5)
 
-2024-05-03T15:44:37.691+01:00  INFO 54405 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : Starting LlmagentsApplicationTests using Java 21.0.2 with PID 54405 (started by Darren.Haken in /Users/Darren.Haken/code/personal/llm-agents)
-2024-05-03T15:44:37.691+01:00  INFO 54405 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2024-05-03T15:44:38.391+01:00  INFO 54405 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : Started LlmagentsApplicationTests in 0.825 seconds (process running for 1.498)
+2024-05-03T17:28:30.139+01:00  INFO 71791 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : Starting LlmagentsApplicationTests using Java 21.0.2 with PID 71791 (started by Darren.Haken in /Users/Darren.Haken/code/personal/llm-agents)
+2024-05-03T17:28:30.139+01:00  INFO 71791 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-05-03T17:28:30.739+01:00  INFO 71791 --- [llmagents] [    Test worker] c.h.llmagents.LlmagentsApplicationTests  : Started LlmagentsApplicationTests in 0.721 seconds (process running for 1.38)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/Darren.Haken/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.13/979ce25f7d3096a2e82214ba7dc972a05ce7a171/byte-buddy-agent-1.14.13.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
